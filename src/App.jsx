@@ -1,7 +1,9 @@
+import qrcode from "./assets/qrcode.png";
+
 function App() {
   return (
     <div className="app">
-      <img src="src\assets\qrcode.png" alt="qr code" />
+      <img src={qrcode} alt="qr code" />
       <div className="text-wrapper">
         <p className="head">
           Improve your front-end skills by building projects
